@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NewsCenter-Най-важните и най-новите новини в България и по света">
+    <meta name="keywords"
+        content="новини, последни новини, новини днес, България, икономика, bg news, bg novini, bg novini dnes, newscenter">
+    <meta name="robots" content="all, follow">
+    <title>NewsCenter: Новините без цензура</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="icon" href="https://iconarchive.com/download/i83461/pelfusion/long-shadow-ios7/News.ico"
+        type="image/icon type">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+</head>
+
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html" target="_blank" title="NewsCenter">NewsCenter</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        България
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Политика</a>
+                        <a class="dropdown-item" href="#">Здравеопазване</a>
+                        <a class="dropdown-item" href="articlesByCategory.html" target="_blank" title="Спорт">Спорт</a>
+                        <a class="dropdown-item" href="#">Криминално</a>
+                        <a class="dropdown-item" href="#">Туризъм</a>
+                    </div>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="C:\Users\User\Desktop\SEO Project"
+                        id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        ЕС
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Зелената сделка</a>
+                        <a class="dropdown-item" href="#">Великобритания</a>
+                        <a class="dropdown-item" href="#">Бенелюкс</a>
+                        <a class="dropdown-item" href="#">Балкани</a>
+                    </div>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="C:\Users\User\Desktop\SEO Project"
+                        id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Свят
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Латинска Америка</a>
+                        <a class="dropdown-item" href="#">Африка</a>
+                        <a class="dropdown-item" href="#">Азия</a>
+                        <a class="dropdown-item" href="#">Австралия</a>
+                        <a class="dropdown-item" href="#">САЩ</a>
+                    </div>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="C:\Users\User\Desktop\SEO Project"
+                        id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Спорт
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Футбол</a>
+                        <a class="dropdown-item" href="#">Баскетбол</a>
+                        <a class="dropdown-item" href="#">Волейбол</a>
+                        <a class="dropdown-item" href="#">Голф</a>
+                        <a class="dropdown-item" href="#">Шах</a>
+                    </div>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="C:\Users\User\Desktop\SEO Project"
+                        id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Музика
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Рок</a>
+                        <a class="dropdown-item" href="#">Метъл</a>
+                        <a class="dropdown-item" href="#">Хаус</a>
+                        <a class="dropdown-item" href="#">Поп</a>
+                        <a class="dropdown-item" href="#">Джаз</a>
+                    </div>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="C:\Users\User\Desktop\SEO Project"
+                        id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Култура
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Изкуство</a>
+                        <a class="dropdown-item" href="#">Изложения</a>
+                        <a class="dropdown-item" href="#">Музеи</a>
+                        <a class="dropdown-item" href="#">Литература</a>
+                        <a class="dropdown-item" href="#">Театър</a>
+                    </div>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="C:\Users\User\Desktop\SEO Project"
+                        id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Бизнес
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Икономика</a>
+                        <a class="dropdown-item" href="#">Транспорт</a>
+                        <a class="dropdown-item" href="#">Земеделие</a>
+                        <a class="dropdown-item" href="#">Енергетика</a>
+                        <a class="dropdown-item" href="#">Технологии</a>
+                    </div>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="C:\Users\User\Desktop\SEO Project"
+                        id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Здраве
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Ковид</a>
+                        <a class="dropdown-item" href="#">България</a>
+                        <a class="dropdown-item" href="#">Европа</a>
+                        <a class="dropdown-item" href="#">По света</a>
+                    </div>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="C:\Users\User\Desktop\SEO Project"
+                        id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Анализи
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Ковид</a>
+                        <a class="dropdown-item" href="#">Политика</a>
+                        <a class="dropdown-item" href="#">Спорт</a>
+                        <a class="dropdown-item" href="#">Култура</a>
+                    </div>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="C:\Users\User\Desktop\SEO Project"
+                        id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Развлечения
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Видео игри</a>
+                        <a class="dropdown-item" href="#">Начин на живот</a>
+                        <a class="dropdown-item" href="#">Хайлайф</a>
+                        <a class="dropdown-item" href="#">Фитнес</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline">
+                <input class="form-control mr-sm-" type="search" placeholder="Търсене..." aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Търсене</button>
+            </form>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Влизане</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Регистрация</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h2 class="text-center m-4">Водещи новини</h2>
+
+    <hr class="m-4">
+
+    <div class="container">
+        <!-- carrousel -->
+        <div class="row">
+            <div class="col-md-12">
+                <!--SECTION START-->
+                <section class="row">
+                    <!--Start slider news-->
+                    <div class="col-12 col-md-6 pb-0 pb-md-3 pt-2 pr-md-1">
+                        <div id="featured" class="carousel slide carousel" data-ride="carousel">
+                            <!--dots navigate-->
+                            <ol class="carousel-indicators top-indicator">
+                                <li data-target="#featured" data-slide-to="0" class="active"></li>
+                                <li data-target="#featured" data-slide-to="1"></li>
+                                <li data-target="#featured" data-slide-to="2"></li>
+                                <li data-target="#featured" data-slide-to="3"></li>
+                            </ol>
+
+                            <!--carousel inner-->
+                            <div class="carousel-inner">
+                                <!--Item slider-->
+                                <div class="carousel-item active">
+                                    <div class="card border-0 rounded-0 text-light overflow zoom">
+                                        <div class="position-relative">
+                                            <!--thumbnail img-->
+                                            <div class="ratio_left-cover-1 image-wrapper">
+                                                <a
+                                                    href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                                    <img class="img-fluid w-100"
+                                                        src="https://bootstrap.news/source/img1.jpg"
+                                                        title="Том Брейди с нов рекорд в НФЛ"
+                                                        alt="Том Брейди с нов рекорд в НФЛ">
+                                                </a>
+                                            </div>
+                                            <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                                <!--title-->
+                                                <a
+                                                    href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                                    <h3 class="post-title text-white my-1">
+                                                        Том Брейди с нов рекорд в НФЛ
+                                                    </h3>
+                                                </a>
+                                                <!-- meta title -->
+                                                <div class="news-meta">
+                                                    <span class="news-date">Oct 22, 2019</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Item slider-->
+                                <div class="carousel-item">
+                                    <div class="card border-0 rounded-0 text-light overflow zoom">
+                                        <div class="position-relative">
+                                            <!--thumbnail img-->
+                                            <div class="ratio_left-cover-1 image-wrapper">
+                                                <a
+                                                    href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                                    <img class="img-fluid w-100"
+                                                        src="https://bootstrap.news/source/img2.jpg"
+                                                        title="Финалът в НБА започва след минути. Следете на живо двубоя"
+                                                        alt="Финалът в НБА започва след минути. Следете на живо двубоя">
+                                                </a>
+                                            </div>
+                                            <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                                <!--title-->
+                                                <a
+                                                    href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                                    <h3 class="post-title text-white my-1">
+                                                        Финалът в НБА започва след минути. Следете на живо двубоя
+                                                    </h3>
+                                                </a>
+                                                <!-- meta title -->
+                                                <div class="news-meta">
+                                                    <span class="news-date">Oct 22, 2019</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Item slider-->
+                                <div class="carousel-item">
+                                    <div class="card border-0 rounded-0 text-light overflow zoom">
+                                        <div class="position-relative">
+                                            <!--thumbnail img-->
+                                            <div class="ratio_left-cover-1 image-wrapper">
+                                                <a
+                                                    href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                                    <img class="img-fluid w-100"
+                                                        src="https://bootstrap.news/source/img3.jpg"
+                                                        title="Вердер Бремен и Лайпциг играят при резултат 1:1"
+                                                        alt="Вердер Бремен и Лайпциг играят при резултат 1:1">
+                                                </a>
+                                            </div>
+                                            <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                                <!--title-->
+                                                <a
+                                                    href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                                    <h3 class="post-title text-white my-1">
+                                                        Вердер Бремен и Лайпциг играят при резултат 1:1
+                                                    </h3>
+                                                </a>
+                                                <!-- meta title -->
+                                                <div class="news-meta">
+                                                    <span class="news-date">Oct 22, 2019</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Item slider-->
+                                <div class="carousel-item">
+                                    <div class="card border-0 rounded-0 text-light overflow zoom">
+                                        <div class="position-relative">
+                                            <!--thumbnail img-->
+                                            <div class="ratio_left-cover-1 image-wrapper">
+                                                <a
+                                                    href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                                    <img class="img-fluid w-100"
+                                                        src="https://bootstrap.news/source/img4.jpg"
+                                                        title="Най-бързият мотор в света"
+                                                        alt="Най-бързият мотор в света">
+                                                </a>
+                                            </div>
+                                            <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                                <!--title-->
+                                                <a
+                                                    href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                                    <h3 class="post-title text-white my-1">
+                                                        Най-бързият мотор в света
+                                                    </h3>
+                                                </a>
+                                                <!-- meta title -->
+                                                <div class="news-meta">
+                                                    <span class="news-date">Oct 22, 2019</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--end item slider-->
+                            </div>
+                            <!--end carousel inner-->
+                        </div>
+
+                        <!--navigation-->
+                        <a class="carousel-control-prev" href="#featured" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#featured" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <!--End slider news-->
+
+                    <!--Start box news-->
+                    <div class="col-12 col-md-6 pt-2 pl-md-1 mb-3 mb-lg-4">
+                        <div class="row">
+                            <!--news box-->
+                            <div class="col-6 pb-1 pt-0 pr-1">
+                                <div class="card border-0 rounded-0 text-white overflow zoom">
+                                    <div class="position-relative">
+                                        <!--thumbnail img-->
+                                        <div class="ratio_right-cover-2 image-wrapper">
+                                            <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                                <img class="img-fluid" src="https://bootstrap.news/source/img5.jpg"
+                                                    title="Приключи първият етап от Тур дьо Франс"
+                                                    alt="Приключи първият етап от Тур дьо Франс">
+                                            </a>
+                                        </div>
+                                        <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                            <!-- category -->
+                                            <a class="p-1 badge badge-primary rounded-0"
+                                                href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Колоездене</a>
+
+                                            <!--title-->
+                                            <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                                <h5 class="text-white my-1">
+                                                    Приключи първият етап от Тур дьо Франс
+                                                </h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--news box-->
+                            <div class="col-6 pb-1 pl-1 pt-0">
+                                <div class="card border-0 rounded-0 text-white overflow zoom">
+                                    <div class="position-relative">
+                                        <!--thumbnail img-->
+                                        <div class="ratio_right-cover-2 image-wrapper">
+                                            <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                                <img class="img-fluid" src="https://bootstrap.news/source/img6.jpg"
+                                                    title="Интервю с шампиона по мотокрос на България"
+                                                    alt="Интервю с шампиона по мотокрос на България">
+                                            </a>
+                                        </div>
+                                        <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                            <!-- category -->
+                                            <a class="p-1 badge badge-primary rounded-0"
+                                                href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Мотокрос</a>
+                                            <!--title-->
+                                            <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                                <h5 class="text-white my-1">
+                                                    Интервю с шампиона по мотокрос на България
+                                                </h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--news box-->
+                            <div class="col-6 pb-1 pr-1 pt-1">
+                                <div class="card border-0 rounded-0 text-white overflow zoom">
+                                    <div class="position-relative">
+                                        <!--thumbnail img-->
+                                        <div class="ratio_right-cover-2 image-wrapper">
+                                            <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                                <img class="img-fluid" src="https://bootstrap.news/source/img7.jpg"
+                                                    title="Какви упражнения да избягваме във фитнеса"
+                                                    alt="Какви упражнения да избягваме във фитнеса">
+                                            </a>
+                                        </div>
+                                        <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                            <!-- category -->
+                                            <a class="p-1 badge badge-primary rounded-0"
+                                                href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Фитнес</a>
+                                            <!--title-->
+                                            <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                                <h5 class="text-white my-1">
+                                                    Какви упражнения да избягваме във фитнеса
+                                                </h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--news box-->
+                            <div class="col-6 pb-1 pl-1 pt-1">
+                                <div class="card border-0 rounded-0 text-white overflow zoom">
+                                    <div class="position-relative">
+                                        <!--thumbnail img-->
+                                        <div class="ratio_right-cover-2 image-wrapper">
+                                            <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                                <img class="img-fluid" src="https://bootstrap.news/source/img8.jpg"
+                                                    title="Вадят конната езда от модерния петобой"
+                                                    alt="Вадят конната езда от модерния петобой">
+                                            </a>
+                                        </div>
+                                        <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                            <!-- category -->
+                                            <a class="p-1 badge badge-primary rounded-0"
+                                                href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                                Конни спортове
+                                            </a>
+                                            <!--title-->
+                                            <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                                <h5 class="text-white my-1">
+                                                    Вадят конната езда от модерния петобой
+                                                </h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end news box-->
+                        </div>
+                    </div>
+                    <!--End box news-->
+                </section>
+                <!--END SECTION-->
+            </div>
+        </div>
+
+        <hr class="m-4">
+
+        <!-- section 1 and 2 -->
+        <div class="row">
+            <!-- left section -->
+            <div class="col-md-7">
+                <article>
+                    <h3 class="text-center m-2">Топ новина</h3>
+                    <hr>
+                    <div class="card">
+                        <img class="card-img-top" src="./img/covid.jpg" title="Нови 5000 случая с Ковид"
+                            alt="Нови 5000 случая с Ковид">
+                        <div class="card-body">
+                            <a href="article.html" target="_blank" title="Нови 5000 случая с Ковид"
+                                class="h5 card-title link-success">
+                                Нови 5000 случая с Ковид
+                            </a>
+                            <p class="card-text">
+                                Активните случаи са 113 229. В болница се лекуват 8329 пациенти, 755 от тях са
+                                в интензивно отделение. За последното денонощие са хоспитализирани още 780,
+                                89.87% от тях не са вакс.....
+                            </p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- right section -->
+            <div class="col-md-4">
+                <h3 class="text-center m-2">Най-четени</h3>
+                <hr>
+                <div class="list-group">
+
+                    <article>
+                        <a href="article.html" target="_blank" title="Интервю с Джо Байдън"
+                            class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Интервю с Джо Байдън</h5>
+                                <small class="text-muted">3 days ago</small>
+                            </div>
+                            <p class="mb-1">Президентът на САЩ даде експлузивно интервю пред британската ме.....</p>
+                        </a>
+                    </article>
+
+                    <article>
+                        <a href="article.html" target="_blank" title="Вирусът Ковид-19"
+                            class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Вирусът Ковид-19</h5>
+                                <small class="text-muted">3 days ago</small>
+                            </div>
+                            <p class="mb-1">Изминаха 2 години от избухването на вируса в Китай. Какво се пром.....</p>
+                        </a>
+                    </article>
+
+                    <article>
+                        <a href="article.html" target="_blank" title="IT секторът в България"
+                            class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">IT секторът в България</h5>
+                                <small class="text-muted">3 days ago</small>
+                            </div>
+                            <p class="mb-1">Това ли е най-бързо развиващият се сектор в България? Младите сп.....</p>
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </div>
+
+        <hr class="m-4">
+
+        <!-- strech links by category 1st part -->
+        <div class="row">
+            <div class="col-md-12">
+                <a class="h4" href="#" target="_blank" title="България">България</a>
+
+                <hr class="mt-3">
+
+                <!-- cards -->
+                <div class="card-deck">
+
+
+                    <div class="card">
+                        <img class="card-img-top" src="./img/mall.jpg"
+                            title="Моловете затварят заради новата Ковид вълна"
+                            alt="Моловете затварят заради новата Ковид вълна">
+                        <div class="card-block">
+                            <a class="h5 card-title" href="article.html" target="_blank"
+                                title="Моловете затварят заради новата Ковид вълна">
+                                Моловете затварят заради новата Ковид вълна
+                            </a>
+                            <p class="card-text">
+                                Задаващата се нова Ковид вълна може да причини нови неприятности на бизнеса.
+                                Министерството на здравеопазването реши, че ще бъда най-добре кат.....
+                            </p>
+
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    Last updated 3 mins ago
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img class="card-img-top" src="./img/turnovo.jpg"
+                            title="Археологически находки край Търново. Открити са артефакти"
+                            alt="Археологически находки край Търново. Открити са артефакти">
+                        <div class="card-block">
+                            <a class="h5 card-title" href="article.html" target="_blank"
+                                title="Археологически находки край Търново. Открити са артефакти">
+                                Археологически находки край Търново. Открити са артефакти
+                            </a>
+                            <p class="card-text">
+                                Кметът на Велико Търново съобщи, че сутринта са били открити
+                                изключително ценни артефакти датиращи от Средновековието....
+                            </p>
+
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    Last updated 3 mins ago
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img class="card-img-top" src="./img/zname.jpg" title="Отбелязваме 136г. от Съединението"
+                            alt="Отбелязваме 136г. от Съединението">
+                        <div class="card-block">
+                            <a class="h5 card-title" href="article.html" target="_blank"
+                                title="Отбелязваме 136г. от Съединението">
+                                Отбелязваме 136г. от Съединението
+                            </a>
+                            <p class="card-text">
+                                На днешната дата отбелязваме 136г. от Съединението на Княжество
+                                България с Източна Румелия. Очаква се президентът да присъства на
+                                церемонията в Пловдив, където ще пров.....
+                            </p>
+
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    Last updated 3 mins ago
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img class="card-img-top" src="./img/bike.jpg" title="Инцидент с колоездач"
+                            alt="Инцидент с колоездач">
+                        <div class="card-block mt-1">
+                            <a class="h5 card-title" href="article.html" target="_blank" title="Инцидент с колоездач">
+                                Инцидент с колоездач
+                            </a>
+                            <p class="card-text">
+                                Неприятен инцидент се случи в центъра на София рано сутринта.
+                                Младеж е бил блъснат от кола, която минавала на червен светофар.
+                                Свидетели на случката разказват ужасяващи неща относно видяното.....
+                            </p>
+
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    Last updated 3 mins ago
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <hr class="mt-3">
+
+        <!-- strech links by category 2nd part -->
+        <div class="row">
+            <div class="col-md-12">
+                <a class="h4" href="#" target="_blank" title="Европейски съюз">Европейски съюз</a>
+
+                <hr class="mt-3">
+
+                <!-- cards -->
+                <div class="card-deck">
+
+
+                    <div class="card">
+                        <img class="card-img-top" src="./img/car.jpg" title="Нов завод за коли в Германия"
+                            alt="Нов завод за коли в Германия">
+                        <div class="card-block">
+                            <a class="h5 card-title" href="article.html" target="_blank"
+                                title="Нов завод за коли в Германия">
+                                Нов завод за коли в Германия
+                            </a>
+                            <p class="card-text">
+                                Очаква се през 2025г. в Хамбург да бъде отворен нов завод за коли
+                                на немската марка BMW. Това ще доведе до нови 10 000 работни места.
+                                Площта на завода ще бъде около.....
+                            </p>
+
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    Last updated 3 mins ago
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img class="card-img-top" src="./img/football.jpg"
+                            title="Нови евросубсидии за спорт ще се раздават на държавите от ЕС"
+                            alt="Нови евросубсидии за спорт ще се раздават на държавите от ЕС">
+                        <div class="card-block">
+                            <a class="h5 card-title" href="article.html" target="_blank"
+                                title="Нови евросубсидии за спорт ще се раздават на държавите от ЕС">
+                                Нови евросубсидии за спорт ще се раздават на държавите от ЕС
+                            </a>
+                            <p class="card-text">
+                                ЕС ще отпусне 10 милиарда за изграждането на нови стадиони и
+                                спортни съоръжения. Целта на програмата е да има повече места
+                                за спорт.....
+                            </p>
+
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    Last updated 3 mins ago
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img class="card-img-top" src="./img/ljubljana.jpg"
+                            title="Международното изложение ROBOTICS ще се състои в Любляна"
+                            alt="Международното изложение ROBOTICS ще се състои в Любляна">
+                        <div class="card-block">
+                            <a class="h5 card-title" href="article.html" target="_blank"
+                                title="Международното изложение ROBOTICS ще се състои в Любляна">
+                                Международното изложение ROBOTICS ще се състои в Любляна
+                            </a>
+                            <p class="card-text">
+                                Следващото издание на международното изложение ROBOTICS ще се състои в
+                                Любляна от 15 до 17 февруари 2022 г., съобщи.....
+                            </p>
+
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    Last updated 3 mins ago
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img class="card-img-top" src="./img/europe.jpeg"
+                            title="Животът на един обикновен свещеник в Италия"
+                            alt="Животът на един обикновен свещеник в Италия">
+                        <div class="card-block">
+                            <a class="h5 card-title" href="article.html" target="_blank"
+                                title="Животът на един обикновен свещеник в Италия">
+                                Животът на един обикновен свещеник в Италия
+                            </a>
+                            <p class="card-text">
+                                В тази статия ще ви представим как живее един обикновен
+                                свещеник в малкия град Авелино, близо до Неапол. Защо е
+                                избрал да стане свеще.....
+                            </p>
+
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    Last updated 3 mins ago
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <hr class="mt-3">
+
+        <!-- strech links by category 3rd part -->
+        <div class="row">
+            <div class="col-md-12">
+                <a class="h4" href="#" target="_blank" title="Свят">Свят</a>
+
+                <hr class="mt-3">
+
+                <!-- cards -->
+                <div class="card-deck">
+
+
+                    <div class="card">
+                        <img class="card-img-top" src="./img/vaccine.jpg" title="Ваксинацията срещу Ковид-19 продължава"
+                            alt="Ваксинацията срещу Ковид-19 продължава">
+                        <div class="card-block">
+                            <a class="h5 card-title" href="article.html" target="_blank"
+                                title="Ваксинацията срещу Ковид-19 продължава">
+                                Ваксинацията срещу Ковид-19 продължава
+                            </a>
+                            <p class="card-text">
+                                Близо 40% от населението на света е ваксинирано против вируса Ковид-19.
+                                Според учени този процент не е достатъчен и трябва бройкат.....
+                            </p>
+
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    Last updated 3 mins ago
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img class="card-img-top" src="./img/lake.jpg" title="Пожар до езерото Тахо"
+                            alt="Пожар до езерото Тахо">
+                        <div class="card-block">
+                            <a class="h5 card-title" href="article.html" target="_blank" title="Пожар до езерото Тахо">
+                                Пожар до езерото Тахо
+                            </a>
+                            <p class="card-text">
+                                Огромен пожар се приближава към района на популярната за
+                                туристите дестинация езерото Тахо на границата на американските
+                                щати Калифорния и Невада, пред.....
+                            </p>
+
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    Last updated 3 mins ago
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img class="card-img-top" src="./img/mcdonalds.jpg"
+                            title="Ново проучване показва какво трябва да избягваме при хранене"
+                            alt="Ново проучване показва какво трябва да избягваме при хранене">
+                        <div class="card-block">
+                            <a class="h5 card-title" href="article.html" target="_blank"
+                                title="Ново проучване показва какво трябва да избягваме при хранене">
+                                Ново проучване показва какво трябва да избягваме при хранене
+                            </a>
+                            <p class="card-text">
+                                Как трябва да се храним, за да поддържаме здравословен начин на живот?
+                                Според новото проучване на аге.....
+                            </p>
+
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    Last updated 3 mins ago
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img class="card-img-top" src="./img/bussiness.jpg"
+                            title="Бизнесът в локдаун. Офисите са празни" alt="Бизнесът в локдаун. Офисите са празни">
+                        <div class="card-block">
+                            <a class="h5 card-title" href="article.html" target="_blank"
+                                title="Бизнесът в локдаун. Офисите са празни">
+                                Бизнесът в локдаун. Офисите са празни
+                            </a>
+                            <p class="card-text">
+                                Новата вълна на Ковид-19 успя да засегне и този път бизнеса.
+                                Хиляди компании напуснаха офисите си и вече работят изцяло
+                                онлайн. До ког.....
+                            </p>
+
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    Last updated 3 mins ago
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <hr class="mt-3">
+
+    </div>
+
+
+    <!-- footer -->
+    <footer class="section-footer border-top">
+        <div class="container">
+            <section class="footer-top  padding-y">
+                <div class="row">
+                    <aside class="col-md-4 col-12">
+                        <article class="mr-md-4">
+                            <h5 class="title">Контакт</h5>
+                            <ul class="list-icon">
+                                <li> <i class="icon fa fa-map-marker"> </i> <a href="map.html">ул. Монтевидео 21, София,
+                                        България</a></li>
+                                <li> <i class="icon fa fa-envelope"> </i>
+                                    <a href="mailto: newscenter@gmail.com"> newscenter@gmail.com</a>
+                                </li>
+                                <li> <i class="icon fa fa-phone"> </i> (800) 060-0730, (800) 060-0730</li>
+                            </ul>
+                        </article>
+                    </aside>
+                    <aside class="col-md col-6">
+                        <h5 class="title">Информация</h5>
+                        <ul class="list-unstyled">
+                            <li> <a href="about.html">За нас</a></li>
+                        </ul>
+                    </aside>
+                    <aside class="col-md col-6">
+                        <h5 class="title">Моят акаунт</h5>
+                        <ul class="list-unstyled">
+                            <li> <a href="#"> Настройки </a></li>
+                            <li> <a href="#"> Любими статии </a></li>
+                        </ul>
+                    </aside>
+                    <aside class="col-md-4 col-12">
+                        <h5 class="title">Абонамент</h5>
+                        <p> Абонирайте се, за да получавате известия за последните новини. </p>
+
+                        <form class="form-inline mb-3">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Email" />
+                                <span class="input-group-append">
+                                    <button class="btn ml-2 btn-warning"> Subscribe </button>
+                                </span>
+                            </div>
+                        </form>
+
+                        <p class="text-black-50 mb-2">Последвайте ни в социалните мрежи</p>
+                        <div>
+                            <a href="#" class="btn btn-icon btn-light"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="btn btn-icon btn-light"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="btn btn-icon btn-light"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="btn btn-icon btn-light"><i class="fab fa-youtube"></i></a>
+                        </div>
+
+                    </aside>
+                </div>
+            </section>
+
+            <section class="footer-bottom border-top row">
+                <div class="col-md-6">
+                    <p class="mb-0">
+                        <a href="privacy.html">Условия за ползване и Защита на данните</a>
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-right">
+                    <a href="https://github.com/markodjunev/SEOProject" target="_blank"><i class="fab fa-github"></i>
+                        Open Source </a>
+                </div>
+            </section>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
